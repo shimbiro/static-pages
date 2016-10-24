@@ -212,7 +212,6 @@ DEPENDENCIES
   pg
   rails (~> 5.0.0, >= 5.0.0.1)
   rails_12factor
-  ruby_dep (~> 1.5.0)
   sass-rails (~> 5.0)
   sdoc
   spring
