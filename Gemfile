@@ -7,7 +7,7 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use Puma as the app server
 gem 'bcrypt'
 gem 'bootstrap-sass'
-gem 'puma', '~> 3.0'
+#gem 'puma', '~> 3.0'
 gem 'rails-controller-testing'
 # Use SCSS for stylesheets
 #gem 'ruby_dep', '~> 1.5.0'
@@ -56,4 +56,5 @@ end
 group :production do
 	gem 'pg'
 	#gem 'rails_12factor'
+	gem 'puma'
 end 
