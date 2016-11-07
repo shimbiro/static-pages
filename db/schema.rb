@@ -9,7 +9,6 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
-
 ActiveRecord::Schema.define(version: 20161104141836) do
 
   create_table "microposts", force: :cascade do |t|
@@ -47,5 +46,4 @@ ActiveRecord::Schema.define(version: 20161104141836) do
     t.datetime "reset_sent_at"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
-
 end
